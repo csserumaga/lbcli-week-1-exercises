@@ -1,2 +1,2 @@
 # Generate a legacy address.
-bitcoin-cli -regtest -rpcwallet=builderswallet getbalance
+bitcoin-cli -regtest getnewaddress -addresstype legacy
